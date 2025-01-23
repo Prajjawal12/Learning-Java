@@ -1,6 +1,7 @@
 package Miscellanous.FInalKeyword;
 //final keyword in java can be applied to methods,variables or classes
 //we cannot have setter functions for variables having final keyword
+//since constructors are not inherited,hence final keyword is not allowed with constructors.
 public class Main {
     //when a variable is declared final,it's value cannot be changed once initialized
     public static final int limit = 100;
